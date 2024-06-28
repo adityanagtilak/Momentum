@@ -1,0 +1,180 @@
+.search{
+    align-items: center;
+    height: 90px;
+    max-width: 240px;
+    background: rgba(212, 231, 213, 0.3);
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.3);
+    padding: 25px 35px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    margin-top: 290px;
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    z-index: 0;
+  
+}
+.close{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  opacity: 1;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+.search:hover .close{
+  display: block;
+}
+.search:hover{
+    background: rgba(87, 91, 87, 0.2);
+}
+.heading {
+    color: whitesmoke;
+    width: 230px;
+    background: linear-gradient(135deg, #efd276, #5b548a);
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.search input {
+    width: 230px;
+    display: flex;
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    height: 40px;
+    border-radius: 30px;
+    margin: 50px 20px auto auto;
+    font-size: 18px;
+    text-align: center;
+}
+.lifeinweeks{
+  align-items: center;
+  height: 90px;
+  max-width: 230px;
+  background: rgba(212, 231, 213, 0.3);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 25px 35px;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-top: 290px;
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  z-index: 0;
+}
+.lifeinweeks input{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  height: 40px;
+  border-radius: 30px;
+  margin: 50px 20px auto auto;
+  font-size: 18px;
+  text-align: center;
+}
+.lifeinweeks button{
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  padding-left: 13px;
+  cursor: pointer;
+}
+.lifeinweeks button img{
+  width: 12px;
+  padding-right: 30px;
+}
+.title{
+  color: whitesmoke;
+    width: 180px;
+    background: linear-gradient(135deg, #efd276, #5b548a);
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.d-flex{
+    width: 370px;
+    margin-top: 70px;
+    padding: 10px auto;
+    position: absolute;
+    
+}
+.modal{
+    max-width: 370px;
+    margin-left: 10px;
+    top: 5%;
+    left: 1%;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    position: absolute;
+}
+.table {
+    align-items: center;
+    height: 340px;
+    width: 310px;
+    background: rgba(212, 231, 213, 0.3);
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 5px 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 230px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    z-index: 0;
+    display: none;
+}
+.butn {
+  width: 33px;
+  height: 33px;
+  margin-top: 48px;
+  margin-left: 187px;
+  border-radius: 50%;
+  position: absolute;
+  color: rgb(150, 148, 148);
+  border: 0.8px solid rgb(114, 114, 114);
+  box-shadow: 1px 1px 1px 1px rgb(114, 113, 113);
+  cursor: pointer;
+}
+.bi-pencil-fill{
+    color: rgb(158, 158, 251);
+    cursor: pointer;
+}
+.bi-trash-fill{
+    color: rgb(42, 41, 41);
+    cursor: pointer;
+}
+.bi-plus-lg {
+    color: black;
+    font-size: 1rem;
+}

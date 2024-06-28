@@ -1,0 +1,320 @@
+.background {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.headingg {
+    color: whitesmoke;
+    width: 230px;
+    background: linear-gradient(135deg, #efd276, #5b548a);
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.searchh{
+  align-items: center;
+  height: 90px;
+  width: 230px;
+  background: rgba(212, 231, 213, 0.3);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 25px 35px;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-top: 290px;
+  position: absolute;
+  top: 1%;
+  right: 4%;
+  z-index: 0;
+}
+.close{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  opacity: 1;
+  width: 20px;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+.searchh:hover .close{
+  display: block;
+}
+.searchh:hover{
+    background: rgba(87, 91, 87, 0.2);
+}
+.searchh:hover{
+  background: rgba(87, 91, 87, 0.2);
+}
+.searchh input{
+  width: 230px;
+  display: flex;
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  height: 40px;
+  border-radius: 30px;
+  margin: 50px 20px auto auto;
+  font-size: 18px;
+  text-align: center;
+}
+.searchh button{
+  border: 0;
+  padding: 0;
+  width: 35px;
+  margin-left: 187px;
+  background: whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  border: 0.8px solid rgb(114, 114, 114);
+  box-shadow: 1px 1px 1px 1px rgb(114, 113, 113);
+  height: 35px;
+  margin-top: 48px;
+  cursor: pointer;
+}
+.searchh button img{
+  width: 15px;
+}
+.weather:hover{
+  background: rgba(87, 91, 87, 0.2);
+}
+.weather{
+  align-items: center;
+  height: 340px;
+  max-width: 230px;
+  background: rgba(212, 231, 213, 0.3);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 2px 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 430px;
+  position: absolute;
+  top: 1%;
+  right: 4%;
+  z-index: 0;
+  display: none;
+}
+.weather-temp{
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+#weather-img{
+  width: 120px;
+}
+.weather-temp h1{
+  margin-right: 20px;
+  font-size: 50px;
+}
+.advice{
+  font-weight: 300;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: -10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: -10px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.col img{
+  width: 50px;
+  margin-right: 10px;
+}
+.humidity , .wind{
+  font-size: 10px;
+}
+.lifeinweeks{
+  align-items: center;
+  height: 90px;
+  max-width: 230px;
+  background: rgba(212, 231, 213, 0.3);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 25px 35px;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-top: 290px;
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  z-index: 0;
+}
+.lifeinweeks input{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  height: 40px;
+  border-radius: 30px;
+  margin: 50px 20px auto auto;
+  font-size: 18px;
+  text-align: center;
+}
+.lifeinweeks button{
+  border: 0;
+  outline: 0;
+  background: whitesmoke;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  padding-left: 13px;
+  cursor: pointer;
+}
+.lifeinweeks button img{
+  width: 12px;
+  padding-right: 30px;
+}
+.title{
+    color: whitesmoke;
+    width: 180px;
+    background: linear-gradient(135deg, #efd276, #5b548a);
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.upperLocation{
+  display: flex;
+  position: absolute;
+  color: whitesmoke;
+  right: 0;
+  top: 0;
+  padding-right: 10px;
+  height: 50px;
+  z-index: 1;
+}
+.upperLocation2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.upperLocation2 p{
+  margin-top: -10px;
+}
+
+.main{
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  
+}
+.main h1{
+  font-weight: 500;
+  font-size: 90px;
+  color: whitesmoke;
+  border-bottom: 3px solid whitesmoke;
+  margin: auto;
+  margin-top: 5%;
+  width: 400px;
+}
+.main h2{
+  font-weight: 300;
+  font-size: 40px;
+  color: whitesmoke;
+   margin: auto;
+}
+.main span{
+  font-size: 30px;
+  font-weight: 300;
+}
+.copyright{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 35px;
+  text-align: center;
+  border-color: transparent;
+  margin: 10px 0 10px 0;
+  padding-bottom: 10px;
+  color: whitesmoke;
+  background-color: transparent;
+  width: 50%;
+  cursor: pointer;
+}
+.copyright-quote{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 25px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: small;
+  width: 70%;
+  animation-duration: 0.7s; animation-delay: 2s;
+  /* display: none; */
+}
+.copyright:hover + .copyright-quote {
+  display: block;
+}
+
+.error{
+  display: none;
+  color: whitesmoke;
+  margin-top: 110px;
+  margin-left: 50px;
+  margin-bottom: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+}
+.settings{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: whitesmoke;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.settings-options{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: whitesmoke;
+  margin: 0 auto 35px 35px;
+  padding: 10px;
+  background: black;
+}
